@@ -4,7 +4,7 @@ maintainer_email 'you@example.com'
 license 'All Rights Reserved'
 description 'Installs/Configures myiis'
 long_description 'Installs/Configures myiis'
-version '0.1.0'
+version '0.2.0'
 chef_version '>= 12.1' if respond_to?(:chef_version)
 
 # The `issues_url` points to the location where issues for this cookbook are
@@ -21,3 +21,4 @@ chef_version '>= 12.1' if respond_to?(:chef_version)
 
 # v0.1.1 put server.rb in default
 # v0.1.2 fixed should have myiis and not workstation
+# v0.2.0 added node information to html output
